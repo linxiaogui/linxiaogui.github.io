@@ -3,11 +3,11 @@
   <title>Hexo</title>
   
   
-  <link href="/blog/atom.xml" rel="self"/>
+  <link href="/atom.xml" rel="self"/>
   
-  <link href="http://linxiaogui.top/blog/"/>
+  <link href="http://linxiaogui.top/"/>
   <updated>2017-11-07T07:02:07.893Z</updated>
-  <id>http://linxiaogui.top/blog/</id>
+  <id>http://linxiaogui.top/</id>
   
   <author>
     <name>LXG</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>about me</title>
-    <link href="http://linxiaogui.top/blog/2017/11/07/me%20/"/>
-    <id>http://linxiaogui.top/blog/2017/11/07/me /</id>
+    <link href="http://linxiaogui.top/2017/11/07/me%20/"/>
+    <id>http://linxiaogui.top/2017/11/07/me /</id>
     <published>2017-11-07T06:58:56.538Z</published>
     <updated>2017-11-07T07:02:07.893Z</updated>
     
@@ -40,8 +40,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://linxiaogui.top/blog/2017/11/06/hello-world/"/>
-    <id>http://linxiaogui.top/blog/2017/11/06/hello-world/</id>
+    <link href="http://linxiaogui.top/2017/11/06/hello-world/"/>
+    <id>http://linxiaogui.top/2017/11/06/hello-world/</id>
     <published>2017-11-06T07:37:15.914Z</published>
     <updated>2017-11-07T07:36:11.628Z</updated>
     
