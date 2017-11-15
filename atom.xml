@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://linxiaogui.top/"/>
-  <updated>2017-11-14T09:01:31.091Z</updated>
+  <updated>2017-11-15T09:06:51.693Z</updated>
   <id>http://linxiaogui.top/</id>
   
   <author>
@@ -17,13 +17,63 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>text2</title>
+    <link href="http://linxiaogui.top/2085/01/16/text2/"/>
+    <id>http://linxiaogui.top/2085/01/16/text2/</id>
+    <published>2085-01-15T23:33:44.000Z</published>
+    <updated>2017-11-15T09:06:51.693Z</updated>
+    
+    <content type="html"><![CDATA[<p>花开花落</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;花开花落&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="hexo" scheme="http://linxiaogui.top/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>my love</title>
+    <link href="http://linxiaogui.top/2017/11/15/test/"/>
+    <id>http://linxiaogui.top/2017/11/15/test/</id>
+    <published>2017-11-15T02:53:41.559Z</published>
+    <updated>2017-11-15T07:10:43.897Z</updated>
+    
+    <content type="html"><![CDATA[<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="298" height="52" src="http://music.163.com/outchain/player?type=2&id=32192436&auto=1&height=32"></iframe><p>参考文献：</p><p><a href="http://www.jianshu.com/p/a52b68794a6b" target="_blank" rel="external">hexo创建个人博客（附加插入音乐、分享、评论、标签页、搜索</a></p><p><a href="http://ijiaober.github.io/2014/08/05/hexo/hexo-04/" target="_blank" rel="external">Hexo使用攻略：（四）Hexo的分类和标签设置</a></p><p><a href="http://blog.csdn.net/qq_33699981/article/details/72716951" target="_blank" rel="external">hexo的next主题个性化教程：打造炫酷网站</a></p><p><a href="https://luuman.github.io/2015/12/27/Hexo/Hexo/" target="_blank" rel="external">hexo使用</a></p><a id="more"></a>]]></content>
+    
+    <summary type="html">
+    
+      hexo建站
+    
+    </summary>
+    
+      <category term="建站" scheme="http://linxiaogui.top/categories/%E5%BB%BA%E7%AB%99/"/>
+    
+    
+      <category term="博客" scheme="http://linxiaogui.top/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+      <category term="建站" scheme="http://linxiaogui.top/tags/%E5%BB%BA%E7%AB%99/"/>
+    
+      <category term="Hexo" scheme="http://linxiaogui.top/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
     <title>打造自己原生JavaScript库</title>
     <link href="http://linxiaogui.top/2017/11/14/%E5%8E%9F%E7%94%9FJavaScript%E5%BA%93/"/>
     <id>http://linxiaogui.top/2017/11/14/原生JavaScript库/</id>
     <published>2017-11-14T07:09:46.932Z</published>
-    <updated>2017-11-14T09:01:31.091Z</updated>
+    <updated>2017-11-15T03:14:24.545Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>   为了能更高效率的开发，在我们平时开发经常重复用到的前端业务代码，可以统一封装起来，来提高我们的效率。<br><a id="more"></a>   </p><h1 id="常用函数汇总"><a href="#常用函数汇总" class="headerlink" title="常用函数汇总"></a>常用函数汇总</h1><h2 id="Array"><a href="#Array" class="headerlink" title="Array"></a>Array</h2><h3 id="arrayEqual"><a href="#arrayEqual" class="headerlink" title="arrayEqual"></a>arrayEqual</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line">/**</div><div class="line">* </div><div class="line">* @desc 判断两个数组是否相等</div><div class="line">* @param &#123;Array&#125; arr1 </div><div class="line">* @param &#123;Array&#125; arr2 </div><div class="line">* @<span class="built_in">return</span> &#123;Boolean&#125;</div><div class="line">*/</div><div class="line"><span class="keyword">function</span> arrayEqual(arr1, arr2) &#123;</div><div class="line">    <span class="keyword">if</span> (arr1 === arr2) <span class="built_in">return</span> <span class="literal">true</span>;</div><div class="line">    <span class="keyword">if</span> (arr1.length != arr2.length) <span class="built_in">return</span> <span class="literal">false</span>;</div><div class="line">    <span class="keyword">for</span> (var i = 0; i &lt; arr1.length; ++i) &#123;</div><div class="line">        <span class="keyword">if</span> (arr1[i] !== arr2[i]) <span class="built_in">return</span> <span class="literal">false</span>;</div><div class="line">    &#125;</div><div class="line">    <span class="built_in">return</span> <span class="literal">true</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>   为了能更高效率的开发，在我们平时开发经常重复用到的前端业务代码，可以统一封装起来，来提高我们的效率。<br><a id="more"></a>   </p><h1 id="常用函数汇总"><a href="#常用函数汇总" class="headerlink" title="常用函数汇总"></a>常用函数汇总</h1><h2 id="Array"><a href="#Array" class="headerlink" title="Array"></a>Array</h2><h3 id="arrayEqual"><a href="#arrayEqual" class="headerlink" title="arrayEqual"></a>arrayEqual</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line">* </div><div class="line">/**</div><div class="line">* @desc 判断两个数组是否相等</div><div class="line">* @param &#123;Array&#125; arr1 </div><div class="line">* @param &#123;Array&#125; arr2 </div><div class="line">* @<span class="built_in">return</span> &#123;Boolean&#125;</div><div class="line">*/</div><div class="line"><span class="keyword">function</span> arrayEqual(arr1, arr2) &#123;</div><div class="line">    <span class="keyword">if</span> (arr1 === arr2) <span class="built_in">return</span> <span class="literal">true</span>;</div><div class="line">    <span class="keyword">if</span> (arr1.length != arr2.length) <span class="built_in">return</span> <span class="literal">false</span>;</div><div class="line">    <span class="keyword">for</span> (var i = 0; i &lt; arr1.length; ++i) &#123;</div><div class="line">        <span class="keyword">if</span> (arr1[i] !== arr2[i]) <span class="built_in">return</span> <span class="literal">false</span>;</div><div class="line">    &#125;</div><div class="line">    <span class="built_in">return</span> <span class="literal">true</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
@@ -31,6 +81,14 @@
     
     </summary>
     
+      <category term="建站" scheme="http://linxiaogui.top/categories/%E5%BB%BA%E7%AB%99/"/>
+    
+    
+      <category term="博客" scheme="http://linxiaogui.top/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+      <category term="建站" scheme="http://linxiaogui.top/tags/%E5%BB%BA%E7%AB%99/"/>
+    
+      <category term="Hexo" scheme="http://linxiaogui.top/tags/Hexo/"/>
     
   </entry>
   
@@ -39,7 +97,7 @@
     <link href="http://linxiaogui.top/2017/11/07/me%20/"/>
     <id>http://linxiaogui.top/2017/11/07/me /</id>
     <published>2017-11-07T06:58:56.538Z</published>
-    <updated>2017-11-07T07:02:07.893Z</updated>
+    <updated>2017-11-15T03:13:43.215Z</updated>
     
     <content type="html"><![CDATA[<p>学海无涯苦作舟，不进则退 ，在前端大海里前进的海鸥</p>]]></content>
     
@@ -53,6 +111,14 @@
     
     </summary>
     
+      <category term="建站" scheme="http://linxiaogui.top/categories/%E5%BB%BA%E7%AB%99/"/>
+    
+    
+      <category term="博客" scheme="http://linxiaogui.top/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+      <category term="建站" scheme="http://linxiaogui.top/tags/%E5%BB%BA%E7%AB%99/"/>
+    
+      <category term="Hexo" scheme="http://linxiaogui.top/tags/Hexo/"/>
     
   </entry>
   
@@ -61,17 +127,24 @@
     <link href="http://linxiaogui.top/2017/11/06/hello-world/"/>
     <id>http://linxiaogui.top/2017/11/06/hello-world/</id>
     <published>2017-11-06T07:37:15.914Z</published>
-    <updated>2017-11-14T08:21:10.489Z</updated>
+    <updated>2017-11-15T04:27:35.614Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><a id="more"></a>  <h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p><a id="more"></a>  <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="298" height="52" src="http://music.163.com/outchain/player?type=2&id=32192436&auto=1&height=32">aa</iframe>]]></content>
     
     <summary type="html">
     
       &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;
     
     </summary>
     
+      <category term="建站" scheme="http://linxiaogui.top/categories/%E5%BB%BA%E7%AB%99/"/>
+    
+    
+      <category term="博客" scheme="http://linxiaogui.top/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+      <category term="建站" scheme="http://linxiaogui.top/tags/%E5%BB%BA%E7%AB%99/"/>
+    
+      <category term="Hexo" scheme="http://linxiaogui.top/tags/Hexo/"/>
     
   </entry>
   
