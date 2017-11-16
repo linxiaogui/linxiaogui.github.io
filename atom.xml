@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Hexo</title>
   
-  
+  <subtitle>学如逆水行舟，不进则退。</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://linxiaogui.top/"/>
@@ -45,9 +45,9 @@
     <link href="http://linxiaogui.top/2017/11/15/test/"/>
     <id>http://linxiaogui.top/2017/11/15/test/</id>
     <published>2017-11-15T02:53:41.559Z</published>
-    <updated>2017-11-15T07:10:43.897Z</updated>
+    <updated>2017-11-15T10:02:00.609Z</updated>
     
-    <content type="html"><![CDATA[<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="298" height="52" src="http://music.163.com/outchain/player?type=2&id=32192436&auto=1&height=32"></iframe><p>参考文献：</p><p><a href="http://www.jianshu.com/p/a52b68794a6b" target="_blank" rel="external">hexo创建个人博客（附加插入音乐、分享、评论、标签页、搜索</a></p><p><a href="http://ijiaober.github.io/2014/08/05/hexo/hexo-04/" target="_blank" rel="external">Hexo使用攻略：（四）Hexo的分类和标签设置</a></p><p><a href="http://blog.csdn.net/qq_33699981/article/details/72716951" target="_blank" rel="external">hexo的next主题个性化教程：打造炫酷网站</a></p><p><a href="https://luuman.github.io/2015/12/27/Hexo/Hexo/" target="_blank" rel="external">hexo使用</a></p><a id="more"></a>]]></content>
+    <content type="html"><![CDATA[<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="298" height="52" src="http://music.163.com/outchain/player?type=2&id=32192436&auto=1&height=32"></iframe><p>参考文献：</p><p><a href="http://www.jianshu.com/p/a52b68794a6b" target="_blank" rel="external">hexo创建个人博客（附加插入音乐、分享、评论、标签页、搜索</a></p><p><a href="http://ijiaober.github.io/2014/08/05/hexo/hexo-04/" target="_blank" rel="external">Hexo使用攻略：（四）Hexo的分类和标签设置</a></p><p><a href="http://blog.csdn.net/qq_33699981/article/details/72716951" target="_blank" rel="external">hexo的next主题个性化教程：打造炫酷网站</a></p><p><a href="https://luuman.github.io/2015/12/27/Hexo/Hexo/" target="_blank" rel="external">hexo使用</a></p><p><a href="http://ibruce.info/2013/11/22/hexo-your-blog/" target="_blank" rel="external">hexo你的博客</a></p><p><a href="http://www.jianshu.com/p/05289a4bc8b2#" target="_blank" rel="external">如何搭建一个独立博客——简明Github Pages与Hexo教程</a></p><p><a href="https://hexo.io/zh-cn/docs/writing.html" target="_blank" rel="external">hexo官网</a></p><a id="more"></a>]]></content>
     
     <summary type="html">
     
